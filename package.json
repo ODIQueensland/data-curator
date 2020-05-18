@@ -112,7 +112,7 @@
     "svgo": "^1.0.5",
     "tableschema": "~1.9.1",
     "tmp": "^0.0.33",
-    "unzipper": "^0.8.14",
+    "unzipper": "^0.10.11",
     "vee-validate": "^2.0.9",
     "vue": "^2.5.17",
     "vue-async-computed": "^3.3.1",
