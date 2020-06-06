@@ -55,6 +55,20 @@ const fileFormats = {
     }),
     mediatype: 'text/csv',
     format: 'csv'
+  },
+  pipe: {
+    label: 'Pipe (vbar) separated...',
+    filters: [
+      {
+        name: 'csv files',
+        extensions: ['csv']
+      }
+    ],
+    dialect: _.assign({}, _dialectDefaults, {
+      delimiter: '|'
+    }),
+    mediatype: 'text/csv',
+    format: 'csv'
   }
 }
 
